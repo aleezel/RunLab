@@ -16,12 +16,20 @@ public class Player : MonoBehaviour
     bool isColliderSuelo;
     public float VelocidadS;
 
+    Rigidbody2D rb;
+    Sliders vidaItems;
+
+
     private void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteR = GetComponent<SpriteRenderer>();
         col2D = GetComponent<Collider2D>();
+
+        rb = GetComponent<Rigidbody2D>();
+        vidaItems = GameObject.FindObjectOfType<Sliders>();
+
     }
 
     private void FixedUpdate()
@@ -73,6 +81,21 @@ public class Player : MonoBehaviour
         if (isColliderSuelo)
         {
             anim.SetBool("jump", false);
+        }
+    }
+
+    //Collision con enemigos e items
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("enemigo"))
+        {
+            vidaItems.dañoRecibido(20);
+        }
+
+        if (collision.CompareTag("item"))
+        {
+            vidaItems.itemObtenido(20);
+            Destroy(collision.gameObject);
         }
     }
 }
