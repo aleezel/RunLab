@@ -1,0 +1,275 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 22000.1219; Version 2009; 64bit' Language: 'es' Physical Memory: 24383 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Proyecto videojuegos/RunLab
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59006
+Successfully changed project path to: E:/Proyecto videojuegos/RunLab
+E:/Proyecto videojuegos/RunLab
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Proyecto videojuegos/RunLab/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4019 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002681 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1242ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (511ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.507 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1508ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1260ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (554ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (398ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2549.
+Total: 5.053500 ms (FindLiveObjects: 0.332200 ms CreateObjectMapping: 0.139200 ms MarkObjects: 4.424400 ms  DeleteObjects: 0.156500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Escenarios/level1/tileset_0.asset
+  artifactKey: Guid(d6aff1f1d7a28a048925ef9757a3c53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_0.asset using Guid(d6aff1f1d7a28a048925ef9757a3c53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029c01148b1f1e6acaf57fbdaff36fa2') in 0.115626 seconds 
+  Import took 0.119483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_2.asset
+  artifactKey: Guid(ed64e50515da21447aeedd982e297608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_2.asset using Guid(ed64e50515da21447aeedd982e297608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130fb0eea8129fe270e1b694c8f3a872') in 0.014764 seconds 
+  Import took 0.018444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_4.asset
+  artifactKey: Guid(619fb17a5989a3d4596fa6c5678a69da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_4.asset using Guid(619fb17a5989a3d4596fa6c5678a69da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a964b2ada69d354d9f38d36ab05d0778') in 0.013867 seconds 
+  Import took 0.017571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_1.asset
+  artifactKey: Guid(397298666cc2aab4b9ea6d804e64995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_1.asset using Guid(397298666cc2aab4b9ea6d804e64995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae0a8f0cce7496fa5832a44187e81e0') in 0.015793 seconds 
+  Import took 0.021666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/Escenarios/level1/PISOintento_3.prefab
+  artifactKey: Guid(2d2c5c4a748476a4786244f028449893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/PISOintento_3.prefab using Guid(2d2c5c4a748476a4786244f028449893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdf0a675e388c5993e87d639cafc7b4') in 0.051962 seconds 
+  Import took 0.056681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_3.asset
+  artifactKey: Guid(ccdd655fb05a69a45b94d5d8c2d1962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_3.asset using Guid(ccdd655fb05a69a45b94d5d8c2d1962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f900f737a6d32e27795ffa2245a9f5') in 0.010863 seconds 
+  Import took 0.015081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 333.605295 seconds.
+  path: Assets/Sprites/Escenarios/level1/intento_4.prefab
+  artifactKey: Guid(b7398c7439db68046a9fe3b47dc097b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/intento_4.prefab using Guid(b7398c7439db68046a9fe3b47dc097b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c41dae3f316d5f7a006b50f74481a6') in 0.023482 seconds 
+  Import took 0.028503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_1 2.asset
+  artifactKey: Guid(d752e6ba5592c4948943091844049c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_1 2.asset using Guid(d752e6ba5592c4948943091844049c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f877e820d751b609167076699fe54dbc') in 0.014108 seconds 
+  Import took 0.018669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_2 2.asset
+  artifactKey: Guid(3c52b55e8123c694aa73d22c31109f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_2 2.asset using Guid(3c52b55e8123c694aa73d22c31109f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3ddad8cc259f63671793eb62463116') in 0.015338 seconds 
+  Import took 0.019301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_1 1.asset
+  artifactKey: Guid(b89eebe8f5a8adc41a9191379d30a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_1 1.asset using Guid(b89eebe8f5a8adc41a9191379d30a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253d6b3b3393b7310a219541d3b14758') in 0.011848 seconds 
+  Import took 0.015236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_4 2.asset
+  artifactKey: Guid(0991b7737e4785244b09cc44b9659d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_4 2.asset using Guid(0991b7737e4785244b09cc44b9659d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77de18a6ec19a0f2b5f00cbd022f0df7') in 0.012492 seconds 
+  Import took 0.016497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_0 1.asset
+  artifactKey: Guid(3bc0699929136874b90798ec11794614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_0 1.asset using Guid(3bc0699929136874b90798ec11794614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f76c75462631087bd0a9cced2153ba') in 0.015402 seconds 
+  Import took 0.018893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_2 1.asset
+  artifactKey: Guid(a0fb08654ac552c499baef5ed049b36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_2 1.asset using Guid(a0fb08654ac552c499baef5ed049b36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0ac27a73f66ee9c0ddc45347007e3f') in 0.015872 seconds 
+  Import took 0.020748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_4 1.asset
+  artifactKey: Guid(7c76e59cff568374e8eac06289bc2aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_4 1.asset using Guid(7c76e59cff568374e8eac06289bc2aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a7b78681e3d3568294f8631302810b') in 0.011584 seconds 
+  Import took 0.016347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_0 2.asset
+  artifactKey: Guid(2cccc51fb9a613d40984f6eed1f6a623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_0 2.asset using Guid(2cccc51fb9a613d40984f6eed1f6a623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef671f3b21bab4ea3d60360e3de54c1a') in 0.013038 seconds 
+  Import took 0.017947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_3 2.asset
+  artifactKey: Guid(a6b4cf8d853e55f45af2424338790c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_3 2.asset using Guid(a6b4cf8d853e55f45af2424338790c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53477b46a81deb90b1a7c154c70353ad') in 0.012266 seconds 
+  Import took 0.016054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Sprites/Escenarios/level1/tileset_3 1.asset
+  artifactKey: Guid(aac774e713e665b41b50738c9f983a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/tileset_3 1.asset using Guid(aac774e713e665b41b50738c9f983a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e120ffe537ecc3e94fd0d3d5c73ecd12') in 0.009807 seconds 
+  Import took 0.015300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Sprites/Escenarios/level1/PISOintento_3.prefab
+  artifactKey: Guid(2d2c5c4a748476a4786244f028449893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Escenarios/level1/PISOintento_3.prefab using Guid(2d2c5c4a748476a4786244f028449893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dac8967741f644463ac06c02ca0430d') in 0.010293 seconds 
+  Import took 0.014612 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
