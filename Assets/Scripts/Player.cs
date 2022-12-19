@@ -19,6 +19,39 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     Sliders vidaItems;
 
+    public float velocidadBoost = 8;
+    public float timerBoost = 100;
+    public bool isBoost = false;
+    public int boostMax = 100;
+    public float velocidadInicial; 
+
+    void Start()
+    {
+        velocidad = velocidadInicial;
+    }
+
+    void Update()
+    {
+        if (Sliders.itemActual >= boostMax || isBoost == true)
+        {
+            isBoost = true;
+
+            if (isBoost)
+            {
+                timerBoost -= Time.deltaTime;
+                Sliders.itemActual = Mathf.FloorToInt(timerBoost);
+                velocidad = velocidadBoost;
+
+                if (timerBoost <= 0)
+                {
+                    isBoost = false;
+                    timerBoost = 100;
+                    velocidad = velocidadInicial;
+                }
+            }
+        }
+    }
+
 
     private void Awake()
     {

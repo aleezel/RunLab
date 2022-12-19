@@ -51,6 +51,7 @@ public class Sliders : MonoBehaviour
 
     public void itemObtenido (int puntos)
     {
+        puntos = 2;
         itemActual += puntos;
 
     }
