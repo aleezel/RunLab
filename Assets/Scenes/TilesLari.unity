@@ -8505,6 +8505,8 @@ MonoBehaviour:
   sliderItem: {fileID: 1362462528}
   itemMax: 10
   itemInicial: 0
+  sinVida: 0
+  panelPerdiste: {fileID: 0}
 --- !u!4 &1828458048
 Transform:
   m_ObjectHideFlags: 0

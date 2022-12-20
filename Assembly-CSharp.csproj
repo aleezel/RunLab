@@ -58,14 +58,16 @@
     <Compile Include="Assets\Enemigo1\Enemigo.cs" />
     <Compile Include="Assets\Scripts\ScreenLoader.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\camara1.cs" />
     <Compile Include="Assets\Scripts\BtnPartida.cs" />
     <Compile Include="Assets\Scripts\Sliders.cs" />
-    <Compile Include="Assets\Scripts\Panels.cs" />
     <Compile Include="Assets\Scripts\Player1.cs" />
-    <Compile Include="Assets\Scripts\camara1.cs" />
+    <Compile Include="Assets\Scripts\Panels.cs" />
+    <Compile Include="Assets\Scripts\PanelsInicio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Fonts2\Fonts\Fredoka_One\OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -88,6 +90,7 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Fonts2\Fonts\Dongle\OFL.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

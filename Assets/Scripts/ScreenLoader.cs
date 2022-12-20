@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScreenLoader : MonoBehaviour
 {
-    public GameObject LoadingScreen;
     public GameObject PanelNegro;
 
 
@@ -19,8 +19,7 @@ public class ScreenLoader : MonoBehaviour
 
         if (timeElapsed > delayBeforeLoading)
         {
-            LoadingScreen.SetActive(false);
-            PanelNegro.SetActive(false);
+            SceneManager.LoadScene("Inicio");
         }
 
 
@@ -28,7 +27,6 @@ public class ScreenLoader : MonoBehaviour
 
     public void Start()
     {
-        LoadingScreen.SetActive(true);
         PanelNegro.SetActive(true);
     }
 }

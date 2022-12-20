@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleSceneLari.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/1-LoadingScreen.unity
+    guid: 2537236bf9617554d99aec635920cd42
+  - enabled: 1
+    path: Assets/Scenes/Inicio.unity
+    guid: 6fcbf1a9a871efd4aad36f12d4bef081
+  - enabled: 1
+    path: Assets/Scenes/RunLab.unity
+    guid: 48579b2b990557b44a7271f51f64dd3b
   m_configObjects: {}
