@@ -15,6 +15,9 @@ public class Sliders : MonoBehaviour
     public static int itemActual;
     public int itemInicial;
 
+    public int sinVida = 0;
+    public GameObject panelPerdiste;
+
 
     void Start()
     {
@@ -33,19 +36,16 @@ public class Sliders : MonoBehaviour
         sliderVida.value = vidaActual;
         sliderItem.value = itemActual;
 
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //dañoRecibido(20);
-        //}
-
-        //if (Input.GetKeyDown(KeyCode.I))
-        //{
-        //itemObtenido(20);
-        //}
+        if (vidaActual <= 0)
+        {
+            panelPerdiste.SetActive(true);
+            GetComponent<Player>().enabled = false;
+        }
     }
 
     public void dañoRecibido(int daño)
     {
+        daño = 2;
         vidaActual -= daño;
     }
 
