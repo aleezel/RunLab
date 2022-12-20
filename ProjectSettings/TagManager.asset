@@ -6,11 +6,12 @@ TagManager:
   tags:
   - enemigo
   - item
+  - agua
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostProcessing
   - Water
   - UI
   - Suelo
