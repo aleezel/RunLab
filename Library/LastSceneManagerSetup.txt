@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/RunLab.unity
+- path: Assets/Scenes/VersionLari.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
