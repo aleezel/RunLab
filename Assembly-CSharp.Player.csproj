@@ -58,9 +58,11 @@
     <Compile Include="Assets\Enemigo1\Enemigo.cs" />
     <Compile Include="Assets\Scripts\ScreenLoader.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\BtnPartida.cs" />
     <Compile Include="Assets\Scripts\Sliders.cs" />
     <Compile Include="Assets\Scripts\Panels.cs" />
-    <Compile Include="Assets\Scripts\BtnPartida.cs" />
+    <Compile Include="Assets\Scripts\Player1.cs" />
+    <Compile Include="Assets\Scripts\camara1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
