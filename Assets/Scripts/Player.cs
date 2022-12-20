@@ -23,30 +23,39 @@ public class Player : MonoBehaviour
     public float timerBoost = 100;
     public bool isBoost = false;
     public int boostMax = 100;
-    public float velocidadInicial; 
+    public float velocidadInicial;
+    public static bool isGame;
+
 
     void Start()
     {
+        isGame = true;
         velocidad = velocidadInicial;
     }
 
     void Update()
     {
-        if (Sliders.itemActual >= boostMax || isBoost == true)
+        if(isGame)
         {
-            isBoost = true;
 
-            if (isBoost)
+        
+
+            if (Sliders.itemActual >= boostMax || isBoost == true)
             {
-                timerBoost -= Time.deltaTime;
-                Sliders.itemActual = Mathf.FloorToInt(timerBoost);
-                velocidad = velocidadBoost;
+                isBoost = true;
 
-                if (timerBoost <= 0)
+                if (isBoost)
                 {
-                    isBoost = false;
-                    timerBoost = 100;
-                    velocidad = velocidadInicial;
+                    timerBoost -= Time.deltaTime;
+                    Sliders.itemActual = Mathf.FloorToInt(timerBoost);
+                    velocidad = velocidadBoost;
+
+                    if (timerBoost <= 0)
+                    {
+                        isBoost = false;
+                        timerBoost = 100;
+                        velocidad = velocidadInicial;
+                    }
                 }
             }
         }
@@ -67,10 +76,18 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+
+        if (isGame)
+        {
+
+
         float hori = Input.GetAxis("Horizontal");
         float vert = Input.GetAxis("Vertical");
         mover(hori, vert);
         saltar();
+
+        }
+
 
     }
 

@@ -17,6 +17,7 @@ public class Sliders : MonoBehaviour
 
     public int sinVida = 0;
     public GameObject panelPerdiste;
+    public GameObject player;
 
 
     void Start()
@@ -38,8 +39,12 @@ public class Sliders : MonoBehaviour
 
         if (vidaActual <= 0)
         {
+            player.SetActive(false);
+            Player.isGame = false;
             panelPerdiste.SetActive(true);
-            GetComponent<Player>().enabled = false;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
         }
     }
 

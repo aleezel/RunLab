@@ -35,6 +35,8 @@ public class Enemigo : MonoBehaviour
             {
                 Destroy(gameObject);
                 panelInfoNa.SetActive(true);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
         }
 

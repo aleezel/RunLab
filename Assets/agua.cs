@@ -19,6 +19,7 @@ public class agua : MonoBehaviour
             panelPerdiste.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            Player.isGame = false;
         }
     }
 }
