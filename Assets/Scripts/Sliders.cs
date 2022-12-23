@@ -60,4 +60,11 @@ public class Sliders : MonoBehaviour
         itemActual += puntos;
 
     }
+
+    public void vidaObtenida(int puntos)
+    {
+        puntos = 2;
+        vidaActual += puntos;
+
+    }
 }

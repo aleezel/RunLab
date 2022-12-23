@@ -17,7 +17,8 @@ public class Player : MonoBehaviour
     public float VelocidadS;
 
     Rigidbody2D rb;
-    Sliders vidaItems;
+    Sliders sliderVida;
+    Sliders sliderItem;
 
     public float velocidadBoost = 8;
     public float timerBoost = 100;
@@ -70,7 +71,8 @@ public class Player : MonoBehaviour
         col2D = GetComponent<Collider2D>();
 
         rb = GetComponent<Rigidbody2D>();
-        vidaItems = GameObject.FindObjectOfType<Sliders>();
+        sliderVida = GameObject.FindObjectOfType<Sliders>();
+        sliderItem = GameObject.FindObjectOfType<Sliders>();
 
     }
 
@@ -137,15 +139,23 @@ public class Player : MonoBehaviour
     //Collision con enemigos e items
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("vida"))
+        {
+            sliderVida.vidaObtenida(20);
+            Destroy(collision.gameObject);
+        }
+
         if (collision.CompareTag("enemigo"))
         {
-            vidaItems.dañoRecibido(20);
+            sliderVida.dañoRecibido(20);
         }
 
         if (collision.CompareTag("item"))
         {
-            vidaItems.itemObtenido(20);
+            sliderVida.itemObtenido(20);
             Destroy(collision.gameObject);
         }
+
+        
     }
 }

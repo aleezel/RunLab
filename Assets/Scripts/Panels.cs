@@ -39,27 +39,33 @@ public class Panels : MonoBehaviour
     public void cerrarInfoNA()
     {
         panelInfoNa.SetActive(false);
+        Player.isGame = true;
     }
 
     public void cerrarInfoMg()
     {
         panelInfoMagnesio.SetActive(false);
+        Player.isGame = true;
     }
     public void cerrarInfoFr()
     {
         panelInfoFrancio.SetActive(false);
+        Player.isGame = true;
     }
     public void cerrarInfoK()
     {
         panelInfoPotasio.SetActive(false);
+        Player.isGame = true;
     }
     public void cerrarInfoRb()
     {
         panelInfoRb.SetActive(false);
+        Player.isGame = true;
     }
     public void cerrarInfoCs()
     {
         panelInfoCesio.SetActive(false);
+        Player.isGame = true;
     }
 
     public void IrConfig()

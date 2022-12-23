@@ -8,6 +8,11 @@ public class PanelInfoElemento : MonoBehaviour
     public float pincho = 5f;
     public GameObject panelInfoElemento;
 
+    private void Start()
+    {
+        Player.isGame = true;
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
