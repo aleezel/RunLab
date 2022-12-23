@@ -15,9 +15,6 @@ public class Enemigo : MonoBehaviour
 
     public SpriteRenderer Enemigolado;
 
-
-    public GameObject panelInfoNa;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +31,6 @@ public class Enemigo : MonoBehaviour
             if (hit.collider.CompareTag("Player"))
             {
                 Destroy(gameObject);
-                panelInfoNa.SetActive(true);
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
             }
