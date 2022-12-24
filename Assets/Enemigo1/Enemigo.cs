@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Enemigo : MonoBehaviour
 {
     public GameObject pos;
+    public GameObject panelInfoElemento;
     public float pincho = 5f;
 
     //Para que se mueva de lado a otro
@@ -33,6 +34,8 @@ public class Enemigo : MonoBehaviour
                 Destroy(gameObject);
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
+                panelInfoElemento.SetActive(true);
+                Debug.Log("Panel");
             }
         }
 

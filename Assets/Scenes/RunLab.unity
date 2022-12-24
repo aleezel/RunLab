@@ -24818,7 +24818,7 @@ Transform:
   - {fileID: 281551772}
   - {fileID: 1488826762}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &437771034
 GameObject:
@@ -24870,6 +24870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 548152538}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 774410955}
   limiteB: {fileID: 471874172}
@@ -41372,7 +41373,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &712953586
 GameObject:
@@ -41424,6 +41425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 1796303055}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 130793502}
   limiteB: {fileID: 94724507}
@@ -42122,6 +42124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 1584459288}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 1227782227}
   limiteB: {fileID: 1173731758}
@@ -42907,6 +42910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 2130326149}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 312209708}
   limiteB: {fileID: 2046339321}
@@ -43648,7 +43652,7 @@ Transform:
   m_LocalScale: {x: 0.43172, y: 0.43172, z: 0.43172}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1055737762
 GameObject:
@@ -43664,7 +43668,6 @@ GameObject:
   - component: {fileID: 1055737764}
   - component: {fileID: 1055737763}
   - component: {fileID: 1055737768}
-  - component: {fileID: 1055737769}
   m_Layer: 0
   m_Name: Enemigo_frente SODIO
   m_TagString: enemigo
@@ -43787,13 +43790,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055737762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -389.64865, y: -11.243243, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 13.300003, y: -3.06, z: 0}
+  m_LocalScale: {x: 0.37, y: 0.37, z: 2.9282}
   m_Children:
   - {fileID: 757645367}
   - {fileID: 1353074818}
-  m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1055737768
 MonoBehaviour:
@@ -43808,26 +43811,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 1353074817}
+  panelInfoElemento: {fileID: 130537383}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
   velocidad: 0
   Enemigolado: {fileID: 0}
---- !u!114 &1055737769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1055737762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3654ca83922ee254bafa4e3803c4a14c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigo: {fileID: 1353074817}
-  pincho: 0.3
-  panelInfoElemento: {fileID: 130537383}
 --- !u!1 &1072783041
 GameObject:
   m_ObjectHideFlags: 0
@@ -45104,7 +45093,6 @@ GameObject:
   - component: {fileID: 1310230859}
   - component: {fileID: 1310230858}
   - component: {fileID: 1310230857}
-  - component: {fileID: 1310230856}
   m_Layer: 0
   m_Name: Enemigo_frente POTASIO
   m_TagString: enemigo
@@ -45120,29 +45108,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310230854}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 296.31, y: -6.02, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 267.1047, y: -1.1274, z: 0}
+  m_LocalScale: {x: 0.37, y: 0.37, z: 2.9282}
   m_Children:
   - {fileID: 681462068}
   - {fileID: 1166204667}
-  m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 28
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1310230856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310230854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3654ca83922ee254bafa4e3803c4a14c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigo: {fileID: 681462067}
-  pincho: 0.3
-  panelInfoElemento: {fileID: 1986235969}
 --- !u!114 &1310230857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45156,6 +45129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 681462067}
+  panelInfoElemento: {fileID: 1986235969}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -49201,7 +49175,7 @@ Transform:
   m_Children:
   - {fileID: 33239984}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1490183212
 MonoBehaviour:
@@ -49216,6 +49190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 33239983}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -50184,7 +50159,6 @@ GameObject:
   - component: {fileID: 1705730079}
   - component: {fileID: 1705730078}
   - component: {fileID: 1705730077}
-  - component: {fileID: 1705730082}
   m_Layer: 0
   m_Name: Enemigo_frente MAGNESIO
   m_TagString: enemigo
@@ -50200,13 +50174,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705730075}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 117.7, y: -0.7, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 201.019, y: 0.841, z: 0}
+  m_LocalScale: {x: 0.37, y: 0.37, z: 2.9282}
   m_Children:
   - {fileID: 1917369458}
   - {fileID: 156258963}
-  m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 9
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1705730077
 MonoBehaviour:
@@ -50221,6 +50195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 1917369457}
+  panelInfoElemento: {fileID: 162632805}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -50333,21 +50308,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1705730082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1705730075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3654ca83922ee254bafa4e3803c4a14c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigo: {fileID: 1917369457}
-  pincho: 0.3
-  panelInfoElemento: {fileID: 162632805}
 --- !u!1 &1711546003
 GameObject:
   m_ObjectHideFlags: 0
@@ -50398,6 +50358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 156113811}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 1095427416}
   limiteB: {fileID: 1825047952}
@@ -50560,6 +50521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 1072783041}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 68924022}
   limiteB: {fileID: 216653574}
@@ -52455,7 +52417,7 @@ Transform:
   m_Children:
   - {fileID: 325547840}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2038278063
 MonoBehaviour:
@@ -52470,6 +52432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 325547839}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -58437,7 +58400,7 @@ Transform:
   - {fileID: 226330122577653805}
   - {fileID: 1572583363}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &3801541251460143665
 Transform:
@@ -59795,6 +59758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125140759750400}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897367495747377}
   limiteB: {fileID: 7075897367864168047}
@@ -59813,6 +59777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141002612273}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368134476023}
   limiteB: {fileID: 7075897368809708060}
@@ -59831,6 +59796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141091799269}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368386755831}
   limiteB: {fileID: 7075897369107102263}
@@ -59849,6 +59815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141086828649}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368197440215}
   limiteB: {fileID: 7075897369624019456}
@@ -59867,6 +59834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141088648333}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897367522491283}
   limiteB: {fileID: 7075897368705950691}
@@ -59885,6 +59853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141199481577}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368961312166}
   limiteB: {fileID: 7075897369181180078}
@@ -59903,6 +59872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141248916657}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897369563891201}
   limiteB: {fileID: 7075897367817894653}
@@ -59921,6 +59891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141404563910}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368256779682}
   limiteB: {fileID: 7075897368050215378}
@@ -59939,6 +59910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141552673562}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897367834391469}
   limiteB: {fileID: 7075897368866708993}
@@ -59957,6 +59929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141501826489}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897369502343330}
   limiteB: {fileID: 7075897368554258468}
@@ -59975,6 +59948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141502921370}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368443085055}
   limiteB: {fileID: 7075897368757254997}
@@ -59993,6 +59967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141648729094}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368069428076}
   limiteB: {fileID: 7075897369212535051}
@@ -60011,6 +59986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141640304117}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368330488533}
   limiteB: {fileID: 7075897368833803225}
@@ -60029,6 +60005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141788581507}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897369566377735}
   limiteB: {fileID: 7075897368220648910}
@@ -60047,6 +60024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141739369205}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368126560773}
   limiteB: {fileID: 7075897367802631927}
@@ -60065,6 +60043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141976609497}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897367888908374}
   limiteB: {fileID: 7075897368760751519}
@@ -60083,6 +60062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125142000980796}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368523245988}
   limiteB: {fileID: 7075897368363662265}
@@ -60101,6 +60081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141999532181}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897369483584531}
   limiteB: {fileID: 7075897369291587332}
@@ -60119,6 +60100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125141998200827}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897367932376777}
   limiteB: {fileID: 7075897367548811926}
@@ -60137,6 +60119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125142233503392}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368063358499}
   limiteB: {fileID: 7075897368090301474}
@@ -60155,6 +60138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125142257372918}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368163353753}
   limiteB: {fileID: 7075897369610022134}
@@ -60173,6 +60157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125142127035611}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897367881843645}
   limiteB: {fileID: 7075897368879184372}
@@ -60191,6 +60176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125142351176002}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368557323208}
   limiteB: {fileID: 7075897367816857003}
@@ -60209,6 +60195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125142372028107}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368817262407}
   limiteB: {fileID: 7075897369076018758}
@@ -60227,6 +60214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125142318460215}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897369511285988}
   limiteB: {fileID: 7075897368579335075}
@@ -60245,6 +60233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125142642646390}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897367912882874}
   limiteB: {fileID: 7075897368244540685}
@@ -60263,6 +60252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125142572545798}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368437306678}
   limiteB: {fileID: 7075897369317912832}
@@ -60281,6 +60271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 5551125142708645340}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897369114530848}
   limiteB: {fileID: 7075897368830900898}
@@ -61452,7 +61443,7 @@ Transform:
   - {fileID: 1119924009}
   - {fileID: 1719085540}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6662496729049071926
 GameObject:
@@ -63155,7 +63146,7 @@ Transform:
   - {fileID: 367598161}
   - {fileID: 440230501}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7075897368020029209
 GameObject:
@@ -67247,6 +67238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 7976193303231292025}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 7075897368679519814}
   limiteB: {fileID: 7075897368331290122}
@@ -70124,7 +70116,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675736335066}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 23
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465673782544035
 GameObject:
@@ -70179,6 +70171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675736335067}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -70342,7 +70335,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675734736279}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 12
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465673866785485
 GameObject:
@@ -70397,6 +70390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675734736276}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -70752,6 +70746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465673935365208}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -70770,7 +70765,7 @@ Transform:
   m_Children:
   - {fileID: 9167465673935365211}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 14
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &9167465674008482820
 CircleCollider2D:
@@ -70892,7 +70887,7 @@ Transform:
   m_Children:
   - {fileID: 9167465674295278746}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 24
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465674104667311
 GameObject:
@@ -70947,6 +70942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465674295278747}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -71203,6 +71199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465673976337923}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -71221,7 +71218,7 @@ Transform:
   m_Children:
   - {fileID: 9167465673976337922}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 26
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &9167465674214571774
 CircleCollider2D:
@@ -71292,6 +71289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465674568987619}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -71310,7 +71308,7 @@ Transform:
   m_Children:
   - {fileID: 9167465674568987618}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 17
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &9167465674238625876
 CircleCollider2D:
@@ -71472,6 +71470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465674692305434}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -71527,7 +71526,7 @@ Transform:
   m_Children:
   - {fileID: 9167465674692305436}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &9167465674279916669
 SpriteRenderer:
@@ -71593,7 +71592,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675758730710}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 18
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465674281903817
 GameObject:
@@ -71648,6 +71647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675758730711}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -71754,6 +71754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675427700836}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -71900,7 +71901,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675427700838}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &9167465674295278746
 Transform:
@@ -72023,7 +72024,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675796734933}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 21
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465674412071291
 GameObject:
@@ -72078,6 +72079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675796734930}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -72211,6 +72213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675550507213}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -72229,7 +72232,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675550507212}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 16
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &9167465674493212236
 CircleCollider2D:
@@ -72351,7 +72354,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675864747445}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 15
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465674496297041
 GameObject:
@@ -72406,6 +72409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675864747442}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -72569,6 +72573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675150713034}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -72587,7 +72592,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675150713037}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 27
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &9167465674599621538
 CircleCollider2D:
@@ -72787,7 +72792,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675869287557}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 20
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465674717972781
 GameObject:
@@ -72842,6 +72847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675869287554}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -73045,6 +73051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675630670505}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -73100,7 +73107,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675630670507}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &9167465674791749759
 SpriteRenderer:
@@ -73217,7 +73224,7 @@ Transform:
   m_Children:
   - {fileID: 9167465673916394191}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 19
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465674804967675
 GameObject:
@@ -73272,6 +73279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465673916394188}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -73348,6 +73356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465673791326283}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -73366,7 +73375,7 @@ Transform:
   m_Children:
   - {fileID: 9167465673791326282}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 11
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &9167465674893086066
 CircleCollider2D:
@@ -73488,6 +73497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675789385830}
+  panelInfoElemento: {fileID: 761599030}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -73507,7 +73517,6 @@ GameObject:
   - component: {fileID: 9167465675008336910}
   - component: {fileID: 9167465675008336911}
   - component: {fileID: 9167465675008336908}
-  - component: {fileID: 9167465675008336914}
   m_Layer: 0
   m_Name: Enemigo_frente FRANCIO
   m_TagString: enemigo
@@ -73622,21 +73631,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &9167465675008336914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9167465675008336909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3654ca83922ee254bafa4e3803c4a14c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigo: {fileID: 9167465675789385830}
-  pincho: 0.3
-  panelInfoElemento: {fileID: 761599030}
 --- !u!4 &9167465675008336915
 Transform:
   m_ObjectHideFlags: 0
@@ -73645,13 +73639,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9167465675008336909}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.1, y: -11.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 144.113, y: -3.118, z: 0}
+  m_LocalScale: {x: 0.37, y: 0.37, z: 2.9282}
   m_Children:
   - {fileID: 1142723401}
   - {fileID: 9167465675789385832}
-  m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 6
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &9167465675015194450
 Transform:
@@ -73666,7 +73660,7 @@ Transform:
   m_Children:
   - {fileID: 9167465674128278962}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 13
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465675015194451
 GameObject:
@@ -73721,6 +73715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465674128278963}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -73848,6 +73843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675249876640}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -73866,7 +73862,7 @@ Transform:
   m_Children:
   - {fileID: 9167465675249876643}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 22
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &9167465675048876580
 CircleCollider2D:
@@ -74190,7 +74186,7 @@ Transform:
   m_Children:
   - {fileID: 9167465674738250241}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 10
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465675287850781
 GameObject:
@@ -74245,6 +74241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465674738250302}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -74387,13 +74384,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9167465675476479293}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -163.67567, y: -6.1891894, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 96.91, y: -1.1900002, z: 0}
+  m_LocalScale: {x: 0.37, y: 0.37, z: 2.9282}
   m_Children:
   - {fileID: 779943052}
   - {fileID: 9167465675611375646}
-  m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9167465675476479292
 MonoBehaviour:
@@ -74408,6 +74405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465675611375644}
+  panelInfoElemento: {fileID: 167641265}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -74427,7 +74425,6 @@ GameObject:
   - component: {fileID: 9167465675476479294}
   - component: {fileID: 9167465675476479295}
   - component: {fileID: 9167465675476479292}
-  - component: {fileID: 9167465675476479296}
   m_Layer: 0
   m_Name: Enemigo_frente CESIO
   m_TagString: enemigo
@@ -74470,21 +74467,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &9167465675476479296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9167465675476479293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3654ca83922ee254bafa4e3803c4a14c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigo: {fileID: 9167465675611375644}
-  pincho: 0.3
-  panelInfoElemento: {fileID: 167641265}
 --- !u!4 &9167465675542030650
 Transform:
   m_ObjectHideFlags: 0
@@ -74496,16 +74478,11 @@ Transform:
   m_LocalPosition: {x: 157.47, y: 1.1, z: 0}
   m_LocalScale: {x: 0.37, y: 0.37, z: 2.9282}
   m_Children:
-  - {fileID: 1055737767}
-  - {fileID: 9167465675589076839}
   - {fileID: 9167465674279916668}
-  - {fileID: 9167465675476479235}
   - {fileID: 9167465674291122185}
   - {fileID: 9167465674791749758}
-  - {fileID: 9167465675008336915}
   - {fileID: 1490183211}
   - {fileID: 2038278062}
-  - {fileID: 1705730076}
   - {fileID: 9167465675287850780}
   - {fileID: 9167465674893086065}
   - {fileID: 9167465673866785484}
@@ -74524,9 +74501,8 @@ Transform:
   - {fileID: 9167465675800897375}
   - {fileID: 9167465674214571773}
   - {fileID: 9167465674599621537}
-  - {fileID: 1310230855}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465675542030651
 GameObject:
@@ -74614,6 +74590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465673896351717}
+  panelInfoElemento: {fileID: 1750228048}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -74633,7 +74610,6 @@ GameObject:
   - component: {fileID: 9167465675589076834}
   - component: {fileID: 9167465675589076835}
   - component: {fileID: 9167465675589076832}
-  - component: {fileID: 9167465675589076838}
   m_Layer: 0
   m_Name: Enemigo_frente RUBIDIO
   m_TagString: enemigo
@@ -74748,21 +74724,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &9167465675589076838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9167465675589076833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3654ca83922ee254bafa4e3803c4a14c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigo: {fileID: 9167465673896351717}
-  pincho: 0.3
-  panelInfoElemento: {fileID: 1750228048}
 --- !u!4 &9167465675589076839
 Transform:
   m_ObjectHideFlags: 0
@@ -74771,13 +74732,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9167465675589076833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -269.16217, y: -0.62, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 57.879997, y: 0.8706, z: 0}
+  m_LocalScale: {x: 0.37, y: 0.37, z: 2.9282}
   m_Children:
   - {fileID: 9167465673896351719}
   - {fileID: 1579739121}
-  m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465675611375644
 GameObject:
@@ -75319,6 +75280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 9167465674480040096}
+  panelInfoElemento: {fileID: 0}
   pincho: 0.3
   limiteA: {fileID: 0}
   limiteB: {fileID: 0}
@@ -75337,7 +75299,7 @@ Transform:
   m_Children:
   - {fileID: 9167465674480040099}
   m_Father: {fileID: 9167465675542030650}
-  m_RootOrder: 25
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9167465675864747442
 GameObject:

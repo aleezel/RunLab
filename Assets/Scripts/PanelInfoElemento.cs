@@ -24,7 +24,11 @@ public class PanelInfoElemento : MonoBehaviour
             {
                 panelInfoElemento.SetActive(true);
                 Player.isGame = false;
+                Debug.Log("Panel");
             }
         }
     }
+
+
+
 }
